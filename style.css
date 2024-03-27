@@ -1,0 +1,41 @@
+
+.fundo__resposta{
+    width: 400px;
+    height: 944px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    color: rgb(237, 164, 75);
+}
+
+#cript{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 24px;
+    border: 1px;
+    opacity: 0px;
+    background-color: #0A3871;
+    color: whitesmoke;
+}
+
+#descript{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 24px;
+    border: 1px;
+    opacity: 0px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+}
+
+.rodape{
+    
+}
+
+/*<div style="border-top: 1px solid blue; color:red" id="elt">
+            An example div
+          </div>/*
