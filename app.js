@@ -1,6 +1,6 @@
 let entrada = document.getElementById('Digitavel');
 let botaoCriptografar = document.getElementById('cript');
-let resultado = document.getElementById('area-resultado');
+let resultado = document.getElementById('resultado');
 let botaoDescriptografar= document.getElementById('descript');
 let botaoCopiar = document.getElementById('copiar-texto');
 
