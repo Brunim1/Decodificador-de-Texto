@@ -9,31 +9,36 @@
   <body>
     <main>
       <header>
-      <img src="Frame 6.png" id="logo" alt="logo_alura" />
-      <h1>Decodificador de Texto</h1>
-    </header>
+        <img src="Frame 6.png" id="logo" alt="logo_alura" />
+        <h1>Decodificador de Texto</h1>
+      </header>
       <div id="clicar">
         <div id="area-clicar">
-          <textarea rows="10" cols="60" id="Digitavel" placeholder="Insira o texto"></textarea>
+          <textarea
+            rows="10"
+            cols="60"
+            id="Digitavel"
+            placeholder="Insira o texto"
+          ></textarea>
           <div id="caixa-botoes">
-          <div class="Botao__criptografar">
-            <button id="cript">Criptografar</button>
+            <div class="Botao__criptografar">
+              <button id="cript">Criptografar</button>
+            </div>
+            <div class="Botao__descriptografar">
+              <button id="descript">Descriptografar</button>
+            </div>
           </div>
-          <div class="Botao__descriptografar">
-            <button id="descript">Descriptografar</button>
-          </div>
-        </div>
         </div>
         <div id="area-resultado">
-        <h3 id="resultado"></h3>
-        <button class="Botao__copiar" id="copiar-texto">Copiar</button>
-    </div>
-    </div>
-      <p>Apenas letras minúsculas e sem acento</p>
+          <h3 id="resultado"></h3>
+          <button class="Botao__copiar" id="copiar-texto">Copiar</button>
+        </div>
+      </div>
+      <p id="letras-minusculas">Apenas letras minúsculas e sem acento</p>
     </main>
-    <footer class="rodape">
-      <p>Desenvolvido por Bruno Ferreira</p>
-    </footer>
     <script src="./app.js"></script>
   </body>
 </html>
+<footer class="rodape">
+  <p>Desenvolvido por Bruno Ferreira</p>
+</footer>

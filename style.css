@@ -22,6 +22,17 @@ main{
     align-items: center;
 }
 
+header{
+    display: flex;
+    color: rgb(43, 95, 226);
+    font-weight: ;
+}
+
+#logo{
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 textarea{
     padding: 10px;
     font-size: 21px;
@@ -69,6 +80,21 @@ textarea{
     cursor: pointer;
 }
 
+#copiar-texto{
+    width: 150px;
+    height: 50px;
+    border-radius: 18px;
+    border: 1px solid black;
+    color: black;
+    background-color: rgb(193, 241, 177);
+    font-size: 21px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60%;
+    margin-left: 26%;
+}
+
 #area-resultado{
     width: 28%;
     background-color: #D8DFE8;
@@ -77,14 +103,21 @@ textarea{
 }
 
 h3{
-    color: #0A3871;
     width: 90%;
     height: 100px;
-    overflow: auto;
+    padding-top: 12px;
+    padding-left: 12px;
+    color: black;
 }
 
-#logo{
-    width: 150px;
-    padding-top: 20px;
+#letras-minusculas{
+    color: rgb(43, 95, 226);
+    font-weight:bold;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
+.rodape{
+    background-color: rgb(193, 241, 177);
+    
+}
