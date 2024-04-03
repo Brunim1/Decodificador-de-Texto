@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -23,18 +25,26 @@ main{
 }
 
 header{
+    width: 98%;
     display: flex;
+    align-items: center;
     color: rgb(43, 95, 226);
-    font-weight: ;
+}
+
+h1{
+    font-family: "Roboto Mono", monospace;
+    width: 75%;
+    text-align: center;
 }
 
 #logo{
-    width: 25%;
+    width: 150px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 textarea{
     padding: 10px;
+    font-family: "Roboto Mono", monospace;
     font-size: 21px;
     border-radius: 15px;
     background-color: white;
@@ -86,7 +96,7 @@ textarea{
     border-radius: 18px;
     border: 1px solid black;
     color: black;
-    background-color: rgb(193, 241, 177);
+    background-color: rgb(94, 153, 75);
     font-size: 21px;
     cursor: pointer;
     align-items: center;
@@ -111,13 +121,13 @@ h3{
 }
 
 #letras-minusculas{
-    color: rgb(43, 95, 226);
     font-weight:bold;
+    font-family: "Roboto Mono", monospace;
     padding-top: 15px;
     padding-bottom: 10px;
+    color: rgb(43, 95, 226);
 }
 
 .rodape{
-    background-color: rgb(193, 241, 177);
-    
+    padding-top: 15px;
 }
